@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   namespace :account do
       resources :groups
     end
-      
+
+#For details on the DSL available within this
   root 'groups#index'
 end
